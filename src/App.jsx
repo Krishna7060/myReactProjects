@@ -1,5 +1,5 @@
 import { useState } from "react";
-import{Hshrouter} from    "react";
+import {Hshrouter} from    "react";
 
 function App() {
   const [color, setColor] = useState("blue");
