@@ -1,8 +1,10 @@
 import { useState } from "react";
+import{Hshrouter} from    "react";
 
 function App() {
   const [color, setColor] = useState("blue");
   return (
+    <Hshrouter>
     <div
       className="w-full h-screen  duration-200"
       style={{ backgroundColor: color }}
@@ -84,6 +86,7 @@ function App() {
         </div>
       </div>
     </div>
+    </Hshrouter>
   );
 }
 
